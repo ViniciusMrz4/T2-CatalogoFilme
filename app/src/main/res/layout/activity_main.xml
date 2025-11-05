@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:hint="Digite o título do filme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnBuscar"
+        android:text="Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtSinopse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Sinopse aparecerá aqui"/>
+    <Button
+        android:id="@+id/btnFavoritar"
+        android:text="Adicionar aos Favoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
