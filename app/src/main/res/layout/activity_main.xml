@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <EditText
+        android:layout_marginTop="100dp"
         android:id="@+id/edtTitulo"
         android:hint="Digite o título do filme"
         android:layout_width="match_parent"

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:padding="16dp">
     <TextView
+        android:layout_marginTop="100dp"
         android:text="Seus filmes favoritos"
         android:textSize="20sp"
         android:textStyle="bold"
